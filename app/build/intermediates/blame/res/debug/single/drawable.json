@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable/take_video_selector.xml",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable/take_video_selector.xml"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable/take_photo_selector.xml",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable/take_photo_selector.xml"
+    }
+]

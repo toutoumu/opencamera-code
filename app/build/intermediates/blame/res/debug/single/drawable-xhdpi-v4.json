@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/settings.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/settings.png"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_mic_red_48dp.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/ic_mic_red_48dp.png"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/take_video_recording.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/take_video_recording.png"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/exposure.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/exposure.png"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/flash_off.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/flash_off.png"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/take_photo_pressed.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/take_photo_pressed.png"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_mic_white_48dp.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/ic_mic_white_48dp.png"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/take_photo.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/take_photo.png"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/flash_on.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/flash_on.png"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/take_video.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/take_video.png"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/share.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/share.png"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/take_video_pressed.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/take_video_pressed.png"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/switch_camera.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/switch_camera.png"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/flash_auto.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/flash_auto.png"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/ic_launcher_take_photo.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/ic_launcher_take_photo.png"
+    },
+    {
+        "merged": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4/trash.png",
+        "source": "/Users/liubin/WorkSpace/Android项目/opencamera-code/app/src/main/res/drawable-xhdpi/trash.png"
+    }
+]
