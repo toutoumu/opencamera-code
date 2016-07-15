@@ -1663,7 +1663,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
                 } else {
                     if (MyDebug.LOG)
                         Log.d(TAG, "found no existing flash_value");
-                    updateFlash("flash_auto", true);
+                    updateFlash("flash_off", true);// // TODO: 16/7/15 在这里设置闪光灯的初始值
                 }
             } else {
                 if (MyDebug.LOG)
