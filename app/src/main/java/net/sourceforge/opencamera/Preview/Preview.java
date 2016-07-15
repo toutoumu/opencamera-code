@@ -1057,7 +1057,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
             return;
         }
         /*{
-            // debug
+			// debug
 			if( debug_count_opencamera++ == 0 ) {
 				if( MyDebug.LOG )
 					Log.d(TAG, "debug: don't open camera yet");
@@ -2407,7 +2407,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
         /*if( MyDebug.LOG )
 			Log.d(TAG, "draw()");*/
         if (this.app_is_paused) {
-            /*if( MyDebug.LOG )
+    		/*if( MyDebug.LOG )
     			Log.d(TAG, "draw(): app is paused");*/
             return;
         }
@@ -2664,7 +2664,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
     }
 
 	/*public String getFrameDurationString(long frame_duration) {
-		double frame_duration_s = frame_duration/1000000000.0;
+        double frame_duration_s = frame_duration/1000000000.0;
 		double frame_duration_r = 1.0/frame_duration_s;
 		return getResources().getString(R.string.fps) + " " + decimal_format_1dp.format(frame_duration_r);
 	}*/
@@ -2736,7 +2736,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
     }
 
 	/*public int getNextCameraId() {
-		int n_cameras = camera_controller_manager.getNumberOfCameras();
+        int n_cameras = camera_controller_manager.getNumberOfCameras();
 		if( n_cameras > 0 ) {
 			return (cameraId+1) % n_cameras;
 		}
@@ -2761,7 +2761,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
 	}*/
 
     /* It's important to set a preview FPS using chooseBestPreviewFps() rather than just leaving it to the default, as some devices
-     * have a poor choice of default - e.g., Nexus 5 and Nexus 6 on original Camera API default to (15000, 15000), which means very dark
+	 * have a poor choice of default - e.g., Nexus 5 and Nexus 6 on original Camera API default to (15000, 15000), which means very dark
 	 * preview and photos in low light, as well as a less smooth framerate in good light.
 	 * See http://stackoverflow.com/questions/18882461/why-is-the-default-android-camera-preview-smoother-than-my-own-camera-preview .
 	 */
@@ -2873,7 +2873,7 @@ public class Preview implements SurfaceHolder.Callback, TextureView.SurfaceTextu
             }
 
 			/*if( is_video ) {
-				// changing from photo to video mode
+                // changing from photo to video mode
 				setFocusPref(false);
 				updateFocusForVideo(false);
 			}*/
