@@ -725,7 +725,8 @@ public class ImageSaver extends Thread {
 			
 			OutputStream outputStream = null;
 			if( picFile != null ) {
-	            outputStream = new FileOutputStream(picFile);
+				// TODO: 16/7/15 在这里对文件加密
+				outputStream = new FileOutputStream(picFile);
 			}
 
 			if( outputStream != null ) {
