@@ -19,10 +19,11 @@
 
     <uses-feature android:name="android.hardware.camera" />
     <uses-feature android:name="android.hardware.microphone" />
-    
+
     <application
+        android:name="sample.SampleApplication"
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme"
         android:largeHeap="true"
@@ -32,11 +33,11 @@
             android:name="net.sourceforge.opencamera.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="landscape"
-			android:configChanges="orientation|screenSize|keyboardHidden"
+            android:configChanges="orientation|screenSize|keyboardHidden"
             >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.LAUNCHER" />
+                <!--<category android:name="android.intent.category.LAUNCHER" />-->
                 <category android:name="android.intent.category.DEFAULT"/>
             </intent-filter>
             <intent-filter>
@@ -89,7 +90,7 @@
 		    <meta-data
 		       android:name="android.appwidget.provider"
 		       android:resource="@xml/widget_info" />
-		</receiver> 
+		</receiver>
        	<!-- should not change the android:name, including moving to a subpackage - see http://android-developers.blogspot.co.uk/2011/06/things-that-cannot-change.html -->
         <receiver
 		    android:icon="@drawable/ic_launcher_take_photo"
@@ -101,6 +102,38 @@
 		    <meta-data
 		       android:name="android.appwidget.provider"
 		       android:resource="@xml/widget_info_take_photo" />
-		</receiver> 
+		</receiver>
+
+        <activity
+            android:name="sample.SampleActivity"
+            android:theme="@style/AppTheme1"
+            android:label="@string/app_name" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+        <activity
+            android:name="sample.SamplePreferenceActivity"
+            android:label="@string/action_settings"
+            android:theme="@style/AppTheme1"
+            android:parentActivityName="sample.SampleActivity" >
+        </activity>
+
+        <!-- Passcode Lock Activities -->
+        <activity
+            android:name="org.wordpress.passcodelock.PasscodeManagePasswordActivity"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
+
+        <activity
+            android:name="org.wordpress.passcodelock.PasscodeUnlockActivity"
+            android:theme="@style/AppTheme1"
+            android:windowSoftInputMode="stateHidden" >
+        </activity>
     </application>
 </manifest>

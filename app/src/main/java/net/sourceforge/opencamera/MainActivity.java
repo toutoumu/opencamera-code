@@ -65,6 +65,8 @@ import net.sourceforge.opencamera.Preview.Preview;
 import net.sourceforge.opencamera.UI.FolderChooserDialog;
 import net.sourceforge.opencamera.UI.MainUI;
 
+import org.wordpress.passcodelock.AppLockManager;
+
 import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -406,6 +408,13 @@ public class MainActivity extends Activity implements AudioListener.AudioListene
             Log.d(TAG, "onCreate: total time for Activity startup: " + (System.currentTimeMillis() - debug_time));
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        AppLockManager.getInstance().setExtendedTimeout();
+        AppLockManager.getInstance().getAppLock().forcePasswordLock(true);
+    }
+
     /**
      * Determine whether we support Camera2 API.
      */
@@ -497,7 +506,7 @@ public class MainActivity extends Activity implements AudioListener.AudioListene
     public void onAudio(int level) {
         boolean audio_trigger = false;
         /*if( level > 150 ) {
-			if( MyDebug.LOG )
+            if( MyDebug.LOG )
 				Log.d(TAG, "loud noise!: " + level);
 			audio_trigger = true;
 		}*/

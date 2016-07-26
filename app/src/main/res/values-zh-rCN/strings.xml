@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">Open Camera</string>
-    <string name="action_settings">设置</string>    
+    <!--<string name="app_name">Open Camera</string>-->
+    <string name="action_settings">设置</string>
     <string name="action_popup">弹出设置</string>
     <string name="intro_text">轻触聚焦，点击蓝色相机按钮来拍照。点击设置中的在线帮助可以获得更多帮助。Open Camera 是完全免费的。如果你喜欢这个 app，请考虑购买我的捐赠 app :)(查看设置中的链接，或者在线帮助)。\n\n隐私政策：必须允许位置许可才能进行地理标记，但默认这是关闭的。如果开启，你的位置被编码在保存的文件中(并且它仅被用于此目的).\n\n(此消息将不会再显示。)</string>
     <string name="intro_ok">好 (此消息将不再显示)</string>
@@ -284,4 +284,21 @@
     <string name="audio_control_stop">停止音频监听</string>
     <string name="speech_recognizer_started">说 \"cheese\"</string>
     <string name="audio_listener_started">发出大的声音</string>
+
+
+
+    <!-- 程序锁相关 -->
+    <string name="app_name">密码锁示例</string>
+    <string name="preferences_header_security">安全</string>
+
+    <!-- Strings for customizing the Passcode Lock interface -->
+    <string name="cd_passcodelock_logo">密码锁图标</string>
+    <string name="passcode_fingerprint_supported">支持指纹</string>
+    <string name="passcode_change_passcode">修改密码</string>
+    <string name="passcode_enter_old_passcode">输入原来的密码</string>
+    <string name="passcode_re_enter_passcode">再输一次</string>
+    <string name="passcode_turn_off">关闭程序锁</string>
+    <string name="passcode_turn_on">启用程序锁</string>
+    <string name="passcode_wrong_passcode">输入正确再来一次?</string>
+    <string name="passcodelock_prompt_message">随便输入n个数字</string>
 </resources>
